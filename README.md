@@ -14,7 +14,7 @@ classifier](http://coding-robin.de/2013/07/22/train-your-own-opencv-haar-classif
 
         wget http://downloads.sourceforge.net/project/opencvlibrary/opencv-unix/2.4.9/opencv-2.4.9.zip
         unzip opencv-2.4.9.zip
-        cd ~/opencv-2.4.9
+        cd opencv-2.4.9
         mkdir release
         cd release
         cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local ..
