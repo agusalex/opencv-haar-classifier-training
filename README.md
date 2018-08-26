@@ -46,6 +46,8 @@ to the `./samples` folder:
 
    Note: If you get the error `struct.error: unpack requires a string argument of length 12`
    then go into your **samples** directory and delete all files of length 0.
+   
+ (aditionally you can check if the samples are looking ok with this command `createsamples -vec samples.vec -w 80 -h 40`)
 
 7. Start training the classifier with `opencv_traincascade`, which comes with
 OpenCV, and save the results to `./classifier`:
